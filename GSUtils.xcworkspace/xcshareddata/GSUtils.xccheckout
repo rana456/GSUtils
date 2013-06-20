@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CFDA72E3-80EE-4A19-8BC2-9C8EEE091D9D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GSUtils</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A8500F90-B0B8-451A-AE89-906D522956D0</key>
+		<string>https://github.com/ultragtx/GSUtils.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GSUtils.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A8500F90-B0B8-451A-AE89-906D522956D0</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ultragtx/GSUtils.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A8500F90-B0B8-451A-AE89-906D522956D0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A8500F90-B0B8-451A-AE89-906D522956D0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GSUtils</string>
+		</dict>
+	</array>
+</dict>
+</plist>

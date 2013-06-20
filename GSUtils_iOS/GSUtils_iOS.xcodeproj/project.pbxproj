@@ -435,6 +435,7 @@
 				C194183617703A2600A512EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C194183717703A2600A512EC /* Build configuration list for PBXNativeTarget "GSUtils_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +444,7 @@
 				C194183917703A2600A512EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

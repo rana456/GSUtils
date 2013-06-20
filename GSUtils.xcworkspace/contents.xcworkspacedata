@@ -5,6 +5,18 @@
       location = "group:GSUtils"
       name = "GSUtils">
       <FileRef
+         location = "group:NSString+Hash.h">
+      </FileRef>
+      <FileRef
+         location = "group:NSString+Hash.m">
+      </FileRef>
+      <FileRef
+         location = "group:NSDictionary+IZM_JSONSupport.m">
+      </FileRef>
+      <FileRef
+         location = "group:NSDictionary+IZM_JSONSupport.h">
+      </FileRef>
+      <FileRef
          location = "group:GSLogUtils.h">
       </FileRef>
    </Group>

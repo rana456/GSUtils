@@ -6,12 +6,12 @@
 //  Copyright (c) 2013年 Xinrong Guo. All rights reserved.
 //
 
-#import "NSString+Hash.h"
+#import "NSString+GSHash.h"
 #import <CommonCrypto/CommonDigest.h>
 
-@implementation NSString (Hash)
+@implementation NSString (GSHash)
 
-- (NSString *)MD5 {
+- (NSString *)gs_md5 {
     const char *ptr = [self UTF8String];
     unsigned char md5Buffer[CC_MD5_DIGEST_LENGTH];
     CC_MD5(ptr, self.length, md5Buffer);

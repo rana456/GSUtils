@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Hash)
+@interface NSString (GSHash)
 
-- (NSString *)MD5;
+- (NSString *)gs_md5;
 
 @end

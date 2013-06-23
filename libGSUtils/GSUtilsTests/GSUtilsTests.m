@@ -30,7 +30,7 @@
 - (void)testExample
 {
     NSString *str = @"test String";
-    GSDLog(@"%@", [str gs_md5]);
+    GSULog(@"%@", [str gs_md5]);
 }
 
 @end

@@ -27,10 +27,13 @@
 		C176F0691773DE3400F84BE2 /* GSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C176F04C1773DDFE00F84BE2 /* GSUtils.h */; };
 		C176F0721773E09000F84BE2 /* NSDictionary+GSJSONSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F06D1773DF1A00F84BE2 /* NSDictionary+GSJSONSupport.m */; };
 		C176F0731773E09100F84BE2 /* NSDictionary+GSJSONSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F06D1773DF1A00F84BE2 /* NSDictionary+GSJSONSupport.m */; };
-		C176F0741773E09400F84BE2 /* NSString+GSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F06F1773DF1A00F84BE2 /* NSString+GSHash.m */; };
 		C176F0751773E09400F84BE2 /* NSString+GSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F06F1773DF1A00F84BE2 /* NSString+GSHash.m */; };
 		C176F0761773E0B500F84BE2 /* GSLogUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C176F06B1773DF1A00F84BE2 /* GSLogUtils.h */; };
 		C176F0771773E0BE00F84BE2 /* NSString+GSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = C176F06E1773DF1A00F84BE2 /* NSString+GSHash.h */; };
+		C176F07B1776C8EE00F84BE2 /* NSDictionary+GSJSONSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C176F06C1773DF1A00F84BE2 /* NSDictionary+GSJSONSupport.h */; };
+		C176F07C1776CA3700F84BE2 /* NSString+GSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F06F1773DF1A00F84BE2 /* NSString+GSHash.m */; };
+		C176F07E1776CAAE00F84BE2 /* NSString+GSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F06F1773DF1A00F84BE2 /* NSString+GSHash.m */; };
+		C176F07F1776CAB100F84BE2 /* NSDictionary+GSJSONSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F06D1773DF1A00F84BE2 /* NSDictionary+GSJSONSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,6 +287,7 @@
 				C176F0691773DE3400F84BE2 /* GSUtils.h in Headers */,
 				C176F0761773E0B500F84BE2 /* GSLogUtils.h in Headers */,
 				C176F0771773E0BE00F84BE2 /* NSString+GSHash.h in Headers */,
+				C176F07B1776C8EE00F84BE2 /* NSDictionary+GSJSONSupport.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +459,7 @@
 			files = (
 				C176F0191773DDA700F84BE2 /* libGSUtils.m in Sources */,
 				C176F0721773E09000F84BE2 /* NSDictionary+GSJSONSupport.m in Sources */,
-				C176F0741773E09400F84BE2 /* NSString+GSHash.m in Sources */,
+				C176F07C1776CA3700F84BE2 /* NSString+GSHash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +468,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C176F0301773DDA700F84BE2 /* libGSUtilsTests.m in Sources */,
+				C176F07E1776CAAE00F84BE2 /* NSString+GSHash.m in Sources */,
+				C176F07F1776CAB100F84BE2 /* NSDictionary+GSJSONSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +593,10 @@
 				DSTROOT = /tmp/libGSUtils.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "libGSUtils/libGSUtils-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -599,6 +609,10 @@
 				DSTROOT = /tmp/libGSUtils.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "libGSUtils/libGSUtils-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -740,6 +754,7 @@
 				C176F0351773DDA700F84BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C176F0361773DDA700F84BE2 /* Build configuration list for PBXNativeTarget "libGSUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -748,6 +763,7 @@
 				C176F0381773DDA700F84BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C176F0631773DDFE00F84BE2 /* Build configuration list for PBXNativeTarget "GSUtils" */ = {
 			isa = XCConfigurationList;
@@ -756,6 +772,7 @@
 				C176F0651773DDFE00F84BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C176F0661773DDFE00F84BE2 /* Build configuration list for PBXNativeTarget "GSUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +781,7 @@
 				C176F0681773DDFE00F84BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,9 @@
 //
 
 #import "libGSUtilsTests.h"
+#import "GSLogUtils.h"
+#import "NSDictionary+GSJSONSupport.h"
+#import "NSString+GSHash.h"
 
 @implementation libGSUtilsTests
 
@@ -26,7 +29,8 @@
 
 - (void)testExample
 {
-    
+    NSString *str = @"test String";
+    GSDLog(@"%@", [str gs_md5]);
 }
 
 @end

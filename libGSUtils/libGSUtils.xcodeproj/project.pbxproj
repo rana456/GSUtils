@@ -34,6 +34,10 @@
 		C176F07C1776CA3700F84BE2 /* NSString+GSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F06F1773DF1A00F84BE2 /* NSString+GSHash.m */; };
 		C176F07E1776CAAE00F84BE2 /* NSString+GSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F06F1773DF1A00F84BE2 /* NSString+GSHash.m */; };
 		C176F07F1776CAB100F84BE2 /* NSDictionary+GSJSONSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F06D1773DF1A00F84BE2 /* NSDictionary+GSJSONSupport.m */; };
+		C1C04A7C1779685D001E7469 /* NSString+GSImageName.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C04A7A1779685D001E7469 /* NSString+GSImageName.h */; };
+		C1C04A7D1779685D001E7469 /* NSString+GSImageName.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C04A7B1779685D001E7469 /* NSString+GSImageName.m */; };
+		C1C04A7E1779685D001E7469 /* NSString+GSImageName.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C04A7B1779685D001E7469 /* NSString+GSImageName.m */; };
+		C1C04A7F1779685D001E7469 /* NSString+GSImageName.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C04A7B1779685D001E7469 /* NSString+GSImageName.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +103,8 @@
 		C176F06D1773DF1A00F84BE2 /* NSDictionary+GSJSONSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GSJSONSupport.m"; sourceTree = "<group>"; };
 		C176F06E1773DF1A00F84BE2 /* NSString+GSHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GSHash.h"; sourceTree = "<group>"; };
 		C176F06F1773DF1A00F84BE2 /* NSString+GSHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GSHash.m"; sourceTree = "<group>"; };
+		C1C04A7A1779685D001E7469 /* NSString+GSImageName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GSImageName.h"; sourceTree = "<group>"; };
+		C1C04A7B1779685D001E7469 /* NSString+GSImageName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GSImageName.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +278,8 @@
 				C176F06D1773DF1A00F84BE2 /* NSDictionary+GSJSONSupport.m */,
 				C176F06E1773DF1A00F84BE2 /* NSString+GSHash.h */,
 				C176F06F1773DF1A00F84BE2 /* NSString+GSHash.m */,
+				C1C04A7A1779685D001E7469 /* NSString+GSImageName.h */,
+				C1C04A7B1779685D001E7469 /* NSString+GSImageName.m */,
 			);
 			name = GSUtils;
 			path = ../GSUtils;
@@ -288,6 +296,7 @@
 				C176F0761773E0B500F84BE2 /* GSLogUtils.h in Headers */,
 				C176F0771773E0BE00F84BE2 /* NSString+GSHash.h in Headers */,
 				C176F07B1776C8EE00F84BE2 /* NSDictionary+GSJSONSupport.h in Headers */,
+				C1C04A7C1779685D001E7469 /* NSString+GSImageName.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +469,7 @@
 				C176F0191773DDA700F84BE2 /* libGSUtils.m in Sources */,
 				C176F0721773E09000F84BE2 /* NSDictionary+GSJSONSupport.m in Sources */,
 				C176F07C1776CA3700F84BE2 /* NSString+GSHash.m in Sources */,
+				C1C04A7D1779685D001E7469 /* NSString+GSImageName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +480,7 @@
 				C176F0301773DDA700F84BE2 /* libGSUtilsTests.m in Sources */,
 				C176F07E1776CAAE00F84BE2 /* NSString+GSHash.m in Sources */,
 				C176F07F1776CAB100F84BE2 /* NSDictionary+GSJSONSupport.m in Sources */,
+				C1C04A7E1779685D001E7469 /* NSString+GSImageName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +491,7 @@
 				C176F04E1773DDFE00F84BE2 /* GSUtils.m in Sources */,
 				C176F0731773E09100F84BE2 /* NSDictionary+GSJSONSupport.m in Sources */,
 				C176F0751773E09400F84BE2 /* NSString+GSHash.m in Sources */,
+				C1C04A7F1779685D001E7469 /* NSString+GSImageName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

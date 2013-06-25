@@ -10,6 +10,7 @@
 #import "GSLogUtils.h"
 #import "NSDictionary+GSJSONSupport.h"
 #import "NSString+GSHash.h"
+#import "NSString+GSImageName.h"
 
 @implementation libGSUtilsTests
 
@@ -31,6 +32,7 @@
 {
     NSString *str = @"test String";
     GSDLog(@"%@", [str gs_md5]);
+    GSDLog(@"%@", [NSString gs_highResImageNameFromNormalResImageName:@"asdf.png"]);
 }
 
 @end

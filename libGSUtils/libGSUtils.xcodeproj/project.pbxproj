@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C113E43F177FB43000112D95 /* NSString+GSEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = C113E43D177FB43000112D95 /* NSString+GSEncode.h */; };
+		C113E440177FB43000112D95 /* NSString+GSEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = C113E43E177FB43000112D95 /* NSString+GSEncode.m */; };
+		C113E441177FB43000112D95 /* NSString+GSEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = C113E43E177FB43000112D95 /* NSString+GSEncode.m */; };
+		C113E442177FB43000112D95 /* NSString+GSEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = C113E43E177FB43000112D95 /* NSString+GSEncode.m */; };
 		C176F0121773DDA700F84BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C176F0111773DDA700F84BE2 /* Foundation.framework */; };
 		C176F0171773DDA700F84BE2 /* libGSUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C176F0161773DDA700F84BE2 /* libGSUtils.h */; };
 		C176F0191773DDA700F84BE2 /* libGSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C176F0181773DDA700F84BE2 /* libGSUtils.m */; };
@@ -75,6 +79,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C113E43D177FB43000112D95 /* NSString+GSEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GSEncode.h"; sourceTree = "<group>"; };
+		C113E43E177FB43000112D95 /* NSString+GSEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GSEncode.m"; sourceTree = "<group>"; };
 		C176F00E1773DDA700F84BE2 /* liblibGSUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibGSUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C176F0111773DDA700F84BE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C176F0151773DDA700F84BE2 /* libGSUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libGSUtils-Prefix.pch"; sourceTree = "<group>"; };
@@ -288,6 +294,8 @@
 				C1C04A7B1779685D001E7469 /* NSString+GSImageName.m */,
 				C1918DF1177A7C8D00589DEF /* NSMutableArray+GSRearrange.h */,
 				C1918DF2177A7C8D00589DEF /* NSMutableArray+GSRearrange.m */,
+				C113E43D177FB43000112D95 /* NSString+GSEncode.h */,
+				C113E43E177FB43000112D95 /* NSString+GSEncode.m */,
 			);
 			name = GSUtils;
 			path = ../GSUtils;
@@ -306,6 +314,7 @@
 				C176F07B1776C8EE00F84BE2 /* NSDictionary+GSJSONSupport.h in Headers */,
 				C1C04A7C1779685D001E7469 /* NSString+GSImageName.h in Headers */,
 				C1918DF3177A7C8D00589DEF /* NSMutableArray+GSRearrange.h in Headers */,
+				C113E43F177FB43000112D95 /* NSString+GSEncode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +489,7 @@
 				C176F07C1776CA3700F84BE2 /* NSString+GSHash.m in Sources */,
 				C1C04A7D1779685D001E7469 /* NSString+GSImageName.m in Sources */,
 				C1918DF4177A7C8D00589DEF /* NSMutableArray+GSRearrange.m in Sources */,
+				C113E440177FB43000112D95 /* NSString+GSEncode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +502,7 @@
 				C176F07F1776CAB100F84BE2 /* NSDictionary+GSJSONSupport.m in Sources */,
 				C1C04A7E1779685D001E7469 /* NSString+GSImageName.m in Sources */,
 				C1918DF5177A7C8D00589DEF /* NSMutableArray+GSRearrange.m in Sources */,
+				C113E441177FB43000112D95 /* NSString+GSEncode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +515,7 @@
 				C176F0751773E09400F84BE2 /* NSString+GSHash.m in Sources */,
 				C1C04A7F1779685D001E7469 /* NSString+GSImageName.m in Sources */,
 				C1918DF6177A7C8D00589DEF /* NSMutableArray+GSRearrange.m in Sources */,
+				C113E442177FB43000112D95 /* NSString+GSEncode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,10 @@
 
 @interface NSString (GSEncode)
 
++ (NSString *)gs_base64Encode:(const uint8_t *)input;
+
+
 - (NSString *)gs_urlEncoding:(NSStringEncoding)encoding;
+
 
 @end

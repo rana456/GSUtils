@@ -46,6 +46,10 @@
 		C1C04A7D1779685D001E7469 /* NSString+GSImageName.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C04A7B1779685D001E7469 /* NSString+GSImageName.m */; };
 		C1C04A7E1779685D001E7469 /* NSString+GSImageName.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C04A7B1779685D001E7469 /* NSString+GSImageName.m */; };
 		C1C04A7F1779685D001E7469 /* NSString+GSImageName.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C04A7B1779685D001E7469 /* NSString+GSImageName.m */; };
+		C1E901011781A77E00A1F23E /* NSString+GSOAuthAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E900FF1781A77E00A1F23E /* NSString+GSOAuthAddition.h */; };
+		C1E901021781A77E00A1F23E /* NSString+GSOAuthAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E901001781A77E00A1F23E /* NSString+GSOAuthAddition.m */; };
+		C1E901031781A77E00A1F23E /* NSString+GSOAuthAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E901001781A77E00A1F23E /* NSString+GSOAuthAddition.m */; };
+		C1E901041781A77E00A1F23E /* NSString+GSOAuthAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E901001781A77E00A1F23E /* NSString+GSOAuthAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +121,8 @@
 		C1918DF2177A7C8D00589DEF /* NSMutableArray+GSRearrange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+GSRearrange.m"; sourceTree = "<group>"; };
 		C1C04A7A1779685D001E7469 /* NSString+GSImageName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GSImageName.h"; sourceTree = "<group>"; };
 		C1C04A7B1779685D001E7469 /* NSString+GSImageName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GSImageName.m"; sourceTree = "<group>"; };
+		C1E900FF1781A77E00A1F23E /* NSString+GSOAuthAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GSOAuthAddition.h"; sourceTree = "<group>"; };
+		C1E901001781A77E00A1F23E /* NSString+GSOAuthAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GSOAuthAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +302,8 @@
 				C1918DF2177A7C8D00589DEF /* NSMutableArray+GSRearrange.m */,
 				C113E43D177FB43000112D95 /* NSString+GSEncode.h */,
 				C113E43E177FB43000112D95 /* NSString+GSEncode.m */,
+				C1E900FF1781A77E00A1F23E /* NSString+GSOAuthAddition.h */,
+				C1E901001781A77E00A1F23E /* NSString+GSOAuthAddition.m */,
 			);
 			name = GSUtils;
 			path = ../GSUtils;
@@ -315,6 +323,7 @@
 				C1C04A7C1779685D001E7469 /* NSString+GSImageName.h in Headers */,
 				C1918DF3177A7C8D00589DEF /* NSMutableArray+GSRearrange.h in Headers */,
 				C113E43F177FB43000112D95 /* NSString+GSEncode.h in Headers */,
+				C1E901011781A77E00A1F23E /* NSString+GSOAuthAddition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +499,7 @@
 				C1C04A7D1779685D001E7469 /* NSString+GSImageName.m in Sources */,
 				C1918DF4177A7C8D00589DEF /* NSMutableArray+GSRearrange.m in Sources */,
 				C113E440177FB43000112D95 /* NSString+GSEncode.m in Sources */,
+				C1E901021781A77E00A1F23E /* NSString+GSOAuthAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +513,7 @@
 				C1C04A7E1779685D001E7469 /* NSString+GSImageName.m in Sources */,
 				C1918DF5177A7C8D00589DEF /* NSMutableArray+GSRearrange.m in Sources */,
 				C113E441177FB43000112D95 /* NSString+GSEncode.m in Sources */,
+				C1E901031781A77E00A1F23E /* NSString+GSOAuthAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +527,7 @@
 				C1C04A7F1779685D001E7469 /* NSString+GSImageName.m in Sources */,
 				C1918DF6177A7C8D00589DEF /* NSMutableArray+GSRearrange.m in Sources */,
 				C113E442177FB43000112D95 /* NSString+GSEncode.m in Sources */,
+				C1E901041781A77E00A1F23E /* NSString+GSOAuthAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
